@@ -1,0 +1,33 @@
+.ttt{
+  border: 5px solid #000;
+  width: 210px;
+}
+
+.group:after {
+ content: '';
+ clear:both;
+ display: block;
+}
+
+.row {
+
+}
+
+.cell {
+  width: 60px;
+  height: 60px;
+  float:left;
+  border: 5px solid #000;
+}
+
+.row .x, .row .x:hover {
+  background: #EF05EE;
+}
+
+.row .o, .row .o:hover {
+  background: #44EE20;
+}
+
+.cell:hover {
+  background: #33F3F3;
+}

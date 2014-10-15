@@ -12,7 +12,17 @@
     <script src="../js/ttt-view.js"></script>
 
     <script>
-      // Write your code here.
+    $(document).ready(function () {
+      $gameDiv = $(".ttt");
+      game = new TTT.Game()
+      view = new TTT.View(game, $gameDiv);
+      view.setupBoard();
+      view.bindEvents();
+    });
     </script>
+
+    <div class="ttt group">
+
+    </div>
   </body>
 </html>
